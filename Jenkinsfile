@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'build'
+        label 'master'
     }
     triggers {
         cron('0 14 * * 1-5')
